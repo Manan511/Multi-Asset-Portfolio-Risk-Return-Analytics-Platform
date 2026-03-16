@@ -1,0 +1,6 @@
+# Phase 1 — Data Extraction
+yfinance>=0.2.40
+pandas>=2.0.0
+
+# Phase 2 Helper — PostgreSQL Loader
+psycopg2-binary>=2.9.9

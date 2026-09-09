@@ -4,3 +4,8 @@ pandas>=2.0.0
 
 # Phase 2 Helper — PostgreSQL Loader
 psycopg2-binary>=2.9.9
+
+# Phase 4 — AI Narrative Report Generator
+# Install the backend you intend to use; llm_client.py picks whichever key is set.
+google-genai>=1.0.0     # Gemini backend  (GEMINI_API_KEY)
+anthropic>=1.0.0        # Claude backend  (ANTHROPIC_API_KEY)
